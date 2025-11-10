@@ -1,0 +1,15 @@
+{
+  "name": "gamehub-token-refresher-reup",
+  "version": "1.0.0",
+  "description": "Automated GameHub token refresher",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
